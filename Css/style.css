@@ -1,0 +1,36 @@
+/* Estilização para o jogo */
+.game-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.game-board {
+    position: relative;
+    width: 70%;
+    height: 70%; 
+    border: 2px solid #333;
+    background-color: #211eff;
+    overflow: hidden;
+}
+
+.player, .impressora {
+    position: absolute;
+    bottom: 0;
+}
+
+.player {
+    position: absolute;
+}
+
+.impressora {
+    top: 0;
+    position: absolute;
+}
+
+/* Estilização opcional para ajustar o tamanho das imagens */
+.player, .impressora {
+    width: 120px; /* Largura da imagem */
+    height: auto; /* Altura ajustada automaticamente de acordo com a proporção da imagem */
+}
